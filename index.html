@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiro HTML</title>
+
+    <!-- Icones  -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- SWIPER TESTIMONIALS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- ESTILIZAÇÃO DO CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTES DO GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Beauty<span>Salon</span>.</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 1ª SEÇÃO - HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
+              alt="cabelomulhercosta"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
+            <p>
+              Um salão exclusivo em São Paulo, especializado em tratamentos
+              naturais.
+            </p>
+            <a class="button" href="#">Agendar um horário</a>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <!-- 2ª SEÇÃO - SOBRE -->
+      <section class="section grid" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt="cabelomulherfrente"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">SOBRE NÓS</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+              nihil dolore quia nulla? Inventore et perferendis exercitationem
+              assumenda ea dicta rerum aliquam, blanditiis magnam qui illum
+              error placeat, repellendus animi!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum d olor sit amet consectetur adipisicing elit. Cumque,
+              facere laborum. Fugit perferendis aliquid ipsam veniam rem?
+              Eveniet, consequatur eius. Itaque, beatae sit. Ut deleniti
+              reiciendis fuga eligendi sint perferendis.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+              porro voluptatibus minima vel at assumenda repellat voluptates
+              quam, obcaecati, excepturi ex officiis aut ab earum corrupti
+              aperiam placeat debitis nesciunt!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- 3ª SEÇÃO - SERVIÇOS -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <!-- 4ª SECTION - TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Depoimentos clientes</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat assumenda numquam illum iure commodi aliquid quidem,
+                    deserunt eius molestiae repellat ducimus sequi nihil? Vero
+                    hic id dolorum consectetur, necessitatibus inventore.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets\fotos/23.jpg"
+                      alt="foto de wanessa souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat assumenda numquam illum iure commodi aliquid quidem,
+                    deserunt eius molestiae repellat ducimus sequi nihil? Vero
+                    hic id dolorum consectetur, necessitatibus inventore.
+                  </p>
+                  <cite>
+                    <img src="assets\fotos/49.jpg" alt="depo1" />
+                    Ana pimentel
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat assumenda numquam illum iure commodi aliquid quidem,
+                    deserunt eius molestiae repellat ducimus sequi nihil? Vero
+                    hic id dolorum consectetur, necessitatibus inventore.
+                  </p>
+                  <cite>
+                    <img src="assets\fotos/54.jpg" alt="depo2" />
+                    Mayra B.
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- 5ª SECTION - CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              cumque non numquam, ipsa id temporibus exercitationem.
+            </p>
+
+            <a
+              href="https://henriquemartins.online"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 15 99789-8956</li>
+              <li><i class="icon-map-pin"></i> Rua José Pontes</li>
+              <li><i class="icon-mail"></i> beautysalon@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <!-- 6ª SECTION - FOOTER -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">beauty<span>salon</span>.</a>
+          <p>2022 Copyright</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+
+        <div class="social">
+          <a href="henriquemartins.online" target="_blank"
+            ><i class="icon-instagram"></i></a
+          ><a href="henriquemartins.online" target="_blank"
+            ><i class="icon-facebook"></i></a
+          ><a href="henriquemartins.online" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- SWIPER TESTIMONIALS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN.JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
